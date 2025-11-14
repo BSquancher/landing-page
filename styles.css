@@ -51,6 +51,7 @@ a{
     justify-content: center;
     margin: 100px 100px 100px 100px;
     flex: none;
+    gap: 16px;
 }
 
 .hero-img{
@@ -69,12 +70,16 @@ a{
 .hero-text{
     display: flex;
     flex-direction: column;
-    flex:auto;
-    max-width: 25%;
+    /* flex:auto;
+    max-width: 25%; */
     margin-top: 100px;
     margin-bottom: 100px;
+}
 
-    
+/* Ensure that the hero text and hero img stay equal and equal shar eof space */
+.hero-text, .hero img{
+    flex: 1;
+    max-width: 50%;
 }
 
 .hero-text h2{
