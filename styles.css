@@ -5,3 +5,11 @@ ul{
 a{
     text-decoration: none;
 }
+
+.header-container{
+    display: flex;
+}
+
+.header-links{
+    display: flex;
+}
