@@ -181,3 +181,26 @@ button{
     REMOVED THIS LINE ADD BACK IF YOU WANT PICTURES TO STRETCH ACROSS PAGE
     
 } */
+
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.quote-container .quote-text p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-container .quote-text p2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    margin-left: auto;
+}
+
+.quote-text{
+    display: flex;
+    flex-direction: column;
+}
