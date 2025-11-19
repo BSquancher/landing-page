@@ -129,7 +129,7 @@ button{
 /* Make the picture row a flexbox */
 .picture-row{
     display: flex;
-    gap: 8px;
+    gap: 16px;
     flex-wrap: wrap; /* Added this to get first picture not to cutoff */
     justify-content: space-between;
 }
@@ -155,6 +155,7 @@ button{
 .headshot1-text img, .headshot2-text img,
 .headshot3-text img, .headshot4-text img{
     border: 5px solid #3882F6;
+    border-radius: 25px;
    
 }
 
@@ -170,6 +171,13 @@ button{
 .headshot1-text p, .headshot2-text p,
 .headshot3-text p, .headshot4-text p{
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
    
 }
 
+/* .picture-container .picture-row{
+    align-self:stretch;
+    REMOVED THIS LINE ADD BACK IF YOU WANT PICTURES TO STRETCH ACROSS PAGE
+    
+} */
