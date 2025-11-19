@@ -104,8 +104,8 @@ button{
 /* Get all the pictures the same size to cover their squares */
 .picture-row img{
     float: center;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 
 }
@@ -115,11 +115,11 @@ button{
     display: flex;
 }
 
-.picture-row, .headshot1-text img{
+/* .picture-row, .headshot1-text img{
  flex: 1;
-
-    /* max-width: 50%; This line reduces the picture itself by 50% */
-}
+    REMOVED AS IT WAS CAUSING ISSUES WITH PICTURES BEING 100 x 100
+    /* max-width: 50%; This line reduces the picture itself by 50% 
+} */
 
 .picture-container h2{
     font-size: 36px;
@@ -138,3 +138,13 @@ button{
     border: 5px solid #3882F6;
    
 }
+
+.headshot1-text, .headshot2-text,
+.headshot3-text, .headshot4-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
