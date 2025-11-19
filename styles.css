@@ -100,3 +100,23 @@ button{
     cursor: pointer;
     border-radius: 8px;
 }
+
+/* Get all the pictures the same size to cover their squares */
+.picture-row img{
+    float: center;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+/* Make the picture row a flexbox */
+.picture-row{
+    display: flex;
+}
+
+.picture-row, .headshot1-text img{
+ flex: 1;
+
+    /* max-width: 50%; This line reduces the picture itself by 50% */
+}
