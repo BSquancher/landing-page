@@ -131,7 +131,7 @@ button{
     display: flex;
     gap: 8px;
     flex-wrap: wrap; /* Added this to get first picture not to cutoff */
-    justify-content: center;
+    justify-content: space-between;
 }
 
 /* .picture-row, .headshot1-text img{
@@ -165,5 +165,11 @@ button{
     flex-direction: column;
     align-items: center;
     
+}
+
+.headshot1-text p, .headshot2-text p,
+.headshot3-text p, .headshot4-text p{
+    text-align: center;
+   
 }
 
