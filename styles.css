@@ -110,7 +110,7 @@ a{
 }
 
 button{
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
     border: none;
     cursor: pointer;
@@ -186,6 +186,8 @@ button{
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    width: 100%; /*Make quote container expnads the whole screen*/
+
 }
 
 .quote-container .quote-text blockquote{
@@ -194,7 +196,7 @@ button{
     font-weight: 300;
     max-width: 500px;
     margin-bottom: 0;
-
+    flex: 1; /* Make quote container strectch the screen */
 }
 
 /* Citation of quote */
@@ -210,4 +212,30 @@ button{
     display: flex;
     flex-direction: column;
     padding: 16px 32px 16px 32px;
+}
+
+.action-container{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    max-height: 350px;
+
+    
+}
+
+.action-button button{
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+/* add this container to get quote and call to action aligned */
+.action-quote-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
