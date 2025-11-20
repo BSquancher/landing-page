@@ -185,12 +185,15 @@ button{
 .quote-container{
     background-color: #E5E7EB;
     display: flex;
+    justify-content: center;
 }
 
-.quote-container .quote-text p{
+.quote-container .quote-text blockquote{
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    max-width: 500px;
+
 }
 
 .quote-container .quote-text p2{
@@ -198,9 +201,11 @@ button{
     font-size: 36px;
     color: #1F2937;
     margin-left: auto;
+    font-family: "Red Hat Display", sans-serif; 
 }
 
 .quote-text{
     display: flex;
     flex-direction: column;
+    padding: 16px 32px 16px 32px;
 }
