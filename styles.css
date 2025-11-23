@@ -219,8 +219,10 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 550px;
+    max-height: 550px;
+    border-radius: 5px;
+    margin: 25px auto 25px auto;
 
     
 }
@@ -230,6 +232,8 @@ button{
     color: white;
     border-style: solid;
     border-color: white;
+    padding: 5px;
+    min-width: 75px;
 }
 /* add this container to get quote and call to action aligned */
 .action-quote-container{
@@ -238,4 +242,32 @@ button{
     justify-content: center;
     align-items: center;
     gap: 16px;
+    
+
+}
+
+.action-text{
+    /* display: flex;
+    flex-direction: column; */
+    padding: auto 15px auto 15px;
+    margin-left:50px;
+    min-width: 75%;
+}
+
+.action-text p{
+    color: #E5E7EB;
+    margin: 0px auto 10px auto;
+    font-size: 12px;
+}
+
+.action-text h3{
+    color: #F9FAF8;
+    margin: 10px auto 5px auto;
+    font-weight: 900;
+}
+
+.action-button{
+    margin-right: 50px;
+    margin-left: 10px;
+
 }
