@@ -271,3 +271,14 @@ button{
     margin-left: 10px;
 
 }
+
+.footer-container{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #E5E7EB;
+    font-size: 12px;
+    margin: 15px auto 15px auto;
+}
